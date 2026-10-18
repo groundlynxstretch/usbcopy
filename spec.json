@@ -1,0 +1,50 @@
+{
+    "name":  "usbcopy",
+    "logo":  "💾",
+    "exe":  "UsbCopy.exe",
+    "desc":  "Free, open-source auto USB copy tool for Windows — grab photos and docs from any stick the moment it plugs in. 100 MB portable, MIT.",
+    "topics":  [
+                   "usb-copy",
+                   "auto-copy-usb",
+                   "usb-backup",
+                   "photo-import",
+                   "file-backup",
+                   "automation",
+                   "usb-flash-copy-alternative",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "incremental-copy",
+                   "memory-card",
+                   "destination-templates",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Listens for volumes** — any USB stick or card reader triggers the job automatically on insert",
+                     "✅ **Rule-based filtering** — copy only chosen extensions or only files newer than a date",
+                     "✅ **Incremental by default** — already-copied files are skipped, so reinserting a card costs seconds",
+                     "✅ **Destination templates** — organize into date and device folders with token patterns",
+                     "✅ **Dry-run preview** — see exactly what would copy before enabling auto-import",
+                     "✅ **Tray notifications and log** — a toast confirms each import with file counts and total size",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **usbcopy** | USB Flash Copy | Fab\u0027s AutoBackup | AutoPlay |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Paid | Built-in |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| Extension rules and dry-run | **Yes** | Partial | Yes | No |",
+                    "| Incremental skip logic | **Yes** | Yes | Yes | No |",
+                    "| Destination templates | **Yes** | Partial | Yes | No |",
+                    "| Portable, no install | **Yes, 100 MB** | Zip | Installer | With OS |"
+                ],
+    "faqQ":  "how to automatically copy files from a USB drive when it is plugged in?",
+    "faqA":  "AutoPlay only opens folders, and manual copying forgets footage for weeks until the card is reformatted. usbcopy watches for volumes, applies your extension and date rules, and imports incrementally into templated folders with a dry-run to prove the logic first. It is a 100 MB portable exe, MIT, offline.",
+    "s1":  "Dark rules panel (#121418, cyan #22D3EE): watch toggle on, extension chips JPG RAW MP4, destination template field with date tokens, dry-run button.",
+    "s2":  "Dry-run report: 342 files would copy totaling 8.2 GB, skip list of 118 already present, enable auto-import button after review.",
+    "s3":  "Tray activity: toast preview Cards imported 342 files, log table with volume labels and durations, retention note about originals untouched."
+}
